@@ -142,9 +142,9 @@ export default function HomeUI() {
       },
       body: JSON.stringify(data),
     }).then(() => {
-      onClear();
       setIsLoading(false);
       Router.push("/success");
+      onClear();
     });
   };
 
