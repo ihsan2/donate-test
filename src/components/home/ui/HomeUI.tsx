@@ -26,7 +26,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import Router from "next/router";
 
-const Links = ["Home"];
+const Links = ["Home", "About"];
 
 const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
